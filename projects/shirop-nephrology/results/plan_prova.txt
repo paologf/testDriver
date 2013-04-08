@@ -1,0 +1,4 @@
+Project Id:00010, Name:shirop-nephrology, Version:0.1
+TestResults for plan_prova
+case1: PASSED
+case2: PASSED

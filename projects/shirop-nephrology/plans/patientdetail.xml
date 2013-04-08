@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='iso-8859-1'?>
+<Project id="00009" name="clinicalrecord" version="0.1">
+  <testPlan name="patientdetail">
+    <testCase>224</testCase>
+    <testCase>225</testCase>
+    <testCase>226</testCase>
+    <testCase>227</testCase>
+    <testCase>228</testCase>
+  </testPlan>
+</Project>

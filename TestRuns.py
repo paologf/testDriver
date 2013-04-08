@@ -240,12 +240,21 @@ class TestRuns(object):
         testActions = {}
         appArgs = appPath
         args = shlex.split(appArgs)
+        print "--------------------------------- LOADING ---------------------------------"
         try:
             app = Process(args)
         except OSError:
             sys.exit("Error, please specify a valid path for the tested application.")
         try:
             sortedCases = [(k, testCase.actions[k]) for k in sorted(testCase.actions, key=asint)]
+            started = False
+            while started == False :
+              outAndErr = app.readboth()
+              for out in outAndErr:
+                  if len(out) != 0 :
+                      if out.find("Started SelectChannelConnector") != -1 :
+                        started = True
+                        print "--------------------------------- STARTED ---------------------------------"
             for actionId, action in sortedCases:
                 if testFailed == True:
                     break

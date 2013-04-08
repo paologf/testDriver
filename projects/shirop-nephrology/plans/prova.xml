@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='iso-8859-1'?>
+<Project id="00010" name="shirop-nephrology" version="0.1">
+  <testPlan name="prova">
+    <testCase>1</testCase>
+    <testCase>2</testCase>    
+  </testPlan>
+</Project>

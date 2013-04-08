@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='iso-8859-1'?>
+<Project id="00009" name="clinicalrecord" version="0.1">
+  <testPlan name="UrineModuleTest">
+    <testCase>74</testCase>
+    <testCase>75</testCase>
+    <testCase>76</testCase>
+    <testCase>77</testCase>
+    <testCase>78</testCase>
+    <testCase>79</testCase>
+    <testCase>80</testCase>
+    <testCase>81</testCase>
+    <testCase>82</testCase>
+    <testCase>83</testCase>
+    <testCase>84</testCase>
+    <testCase>85</testCase>
+    <testCase>86</testCase>
+    <testCase>87</testCase>
+    <testCase>88</testCase>
+    <testCase>89</testCase>
+    <testCase>90</testCase>
+    <testCase>91</testCase>
+    <testCase>92</testCase>
+    <testCase>93</testCase>
+    <testCase>94</testCase>
+    <testCase>95</testCase>
+    <testCase>96</testCase>
+  </testPlan>
+</Project>
